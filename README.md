@@ -1,2 +1,14 @@
-# AI-Code-Review-System
-This project is a Python-based AI Code Review system that analyzes Python code automatically, combining traditional static analysis (like pylint) with AI-generated suggestions for improving code quality. It’s designed to help developers identify issues related to style, readability, safety, and structure without manual inspection.
+# AI Code Review Project
+
+This project parses Python code, runs pylint, and gives AI-powered improvement suggestions.
+
+## Structure
+
+- **data/sample_code/** : Sample Python code.
+- **scripts/** : Code parser, AI suggestion generator, report builder.
+- **reports/** : Saved AI code review reports (optional).
+
+## Usage
+
+1. Import and run `review_report.build_report(file_path)`.
+2. Get a Markdown report with code structure, pylint results, and AI suggestions.
