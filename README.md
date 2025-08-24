@@ -1,14 +1,6 @@
-# AI Code Review Project
+# AI Code Review System
 
-This project parses Python code, runs pylint, and gives AI-powered improvement suggestions.
-
-## Structure
-
-- **data/sample_code/** : Sample Python code.
-- **scripts/** : Code parser, AI suggestion generator, report builder.
-- **reports/** : Saved AI code review reports (optional).
-
-## Usage
-
-1. Import and run `review_report.build_report(file_path)`.
-2. Get a Markdown report with code structure, pylint results, and AI suggestions.
+Automates Python code review by combining static analysis (`pylint`) with AI-driven suggestions.  
+Extracts functions, classes, and imports, and provides actionable tips to improve readability, style, and safety.  
+Built with Python 3.x, AST parsing, and Hugging Face Transformers (`flan-t5-small`).  
+Easy to integrate and use on any Python project.
